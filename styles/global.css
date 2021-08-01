@@ -1,0 +1,407 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("MyriadPro-Regular.woff2") format("woff2"),
+    url("MyriadPro-Regular.woff") format("woff"),
+    url("MyriadPro-Regular.ttf") format("truetype"),
+    url("MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+}
+
+body,
+.content,
+.content-container .section {
+  overflow-x: hidden;
+}
+
+.pocetna {
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+/* #f5f6f6  HEADING -- #9b9c9f FONT-COLOR*/
+
+a {
+  color: #9b9c9f;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+.content-container {
+  background-image: url("../assets/pocetna/pozadina.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  opacity: 0.93;
+}
+
+.web-dizajn {
+  background-image: url("../assets/web-dizajn/pozadina.jpg");
+  overflow-x: hidden;
+}
+
+.graficki-dizajn {
+  background-image: url("../assets/graficki-dizajn/pozadina.jpg");
+}
+
+.video-animacija {
+  background-image: url("../assets/video-animacija/pozadina.jpg");
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+  gap: 2em;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  overflow-y: hidden;
+}
+
+.animation-container {
+  height: 450px;
+  position: relative;
+  flex: 1;
+  overflow: visible;
+}
+
+.animation-image {
+  position: absolute;
+}
+
+.text {
+  flex: 1;
+  padding-top: 5em;
+}
+
+.text h2 {
+  color: #f8af4e;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: "Myriad", sans-serif;
+  letter-spacing: 3px;
+}
+
+.text p {
+  font-size: 24px;
+  margin-top: 25px;
+  color: #474849;
+  font-family: "Myriad Pro";
+}
+
+.text:nth-child(odd) {
+  text-align: right;
+}
+
+.center img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-graphic {
+  background-image: url("../assets/logoi/graphic/orange.png");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -11;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+.container-web {
+  background-image: url("../assets/logoi/web/blue.png");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -11;
+}
+
+.container-animation {
+  background-image: url("../assets/logoi/video/purple.png");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -11;
+}
+
+.tdlogo-graphic {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+.tdlogo-web {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+.tdlogo-animation {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+.nav-links {
+  padding-top: 15px;
+  gap: 30px;
+  font-size: 20px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.6s;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
+  justify-content: space-between;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.sticky {
+  background-color: #f5f6f6;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  box-shadow: 0 4px 8px -1px gray;
+  width: 100%;
+  box-sizing: border-box;
+}
+.sticky .link .col {
+  color: #9b9c9f;
+}
+.sticky .social-lang .lang .col {
+  color: #9b9c9f;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  position: relative;
+}
+
+.social-lang {
+  margin-top: 10px;
+  gap: 30px;
+  position: relative;
+  align-items: center;
+}
+
+.social {
+  gap: 10px;
+  position: relative;
+}
+
+.social a img {
+  width: 30px;
+  position: relative;
+}
+
+.lang a {
+  font-family: "Montserrat", sans-serif;
+  /* color: #9b9c9f; */
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 28px;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo-links {
+  position: relative;
+  transition: 0.6s;
+}
+
+.links-container {
+  position: relative;
+}
+
+.nav-links li a {
+  position: relative;
+  color: #ffffff;
+  transition: 0.6s;
+}
+
+.lang {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  padding: 80px 50px 50px 50px;
+  background-color: #ececed;
+  gap: 4em;
+  align-items: center;
+}
+
+.logo-social {
+  flex-direction: column;
+  min-width: 500px;
+}
+
+.logo-social img {
+  width: 500px;
+}
+
+.logo-social p {
+  font-size: 24px;
+  color: #797a7b;
+  font-style: italic;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.details {
+  justify-content: space-around;
+  gap: 5em;
+  width: 100%;
+}
+
+.section-details h4 {
+  color: #797a7b;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.vertical-line {
+  display: inline-block;
+  border-left: 2px solid #47484955;
+  margin: 0 10px;
+  height: 250px;
+}
+
+.section-details ul li {
+  margin-top: 10px;
+}
+
+.section-details ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.social-footer {
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-footer img {
+  width: 40px;
+}
+
+.ocean-left {
+  height: 100%;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.ocean-right {
+  height: 100%;
+  width: 3%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.wave-right {
+  background: url("../assets/svg/purplesvg.svg") repeat-y;
+  position: absolute;
+  width: 120px;
+  height: 6000px;
+  left: -20px;
+  animation: wave 30s linear infinite;
+  transform: translate3d(0, 0, 0);
+  overflow-y: hidden;
+}
+
+.wave-left {
+  background: url("../assets/svg/blue.svg") repeat-y;
+  position: absolute;
+  width: 120px;
+  height: 6000px;
+  left: -50px;
+  animation: wave 30s linear infinite;
+  transform: translate3d(0, 0, 0);
+  transform: rotate(180deg);
+  overflow-y: hidden;
+}
+
+@keyframes wave {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -500px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.saznaj-vise {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 25px;
+  border: 4px solid #fff;
+  padding: 8px 25px;
+  z-index: 20000;
+}
+
+.saznaj-vise a {
+  color: #fff;
+  font-size: 28px;
+}
+
+.display {
+  display: none;
+}

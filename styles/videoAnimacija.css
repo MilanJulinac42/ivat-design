@@ -1,0 +1,33 @@
+.montaza-1 {
+  right: 0;
+  bottom: -80px;
+}
+
+.montaza-2 {
+  right: 240px;
+  bottom: -85px;
+}
+
+.pokretna-grafika {
+  bottom: -50px;
+  left: 50px;
+}
+
+.render {
+  right: 100px;
+  top: -100px;
+}
+
+.reklama-1 {
+  left: 200px;
+}
+
+.reklama-2 {
+  bottom: 270px;
+  left: 370px;
+}
+
+.reklama-3 {
+  left: 410px;
+  bottom: 140px;
+}

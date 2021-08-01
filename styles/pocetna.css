@@ -1,0 +1,137 @@
+.velika-tabla {
+  top: 0;
+  right: 110px;
+}
+
+.donja-tabla {
+  top: 190px;
+  right: 145px;
+}
+
+.gornja-tabla {
+  top: 70px;
+  right: 145px;
+}
+
+.sijalica {
+  top: 60px;
+  right: 460px;
+}
+
+.covek {
+  right: 230px;
+  top: 140px;
+}
+
+.mali-tocak {
+  top: 270px;
+  right: 170px;
+}
+
+.veliki-tocak {
+  top: 50px;
+  right: 220px;
+}
+
+.usluge-tabla {
+  top: 0;
+  left: 120px;
+}
+
+.lupa {
+  top: 60px;
+  left: 130px;
+}
+
+.zupcanik-3 {
+  top: -60px;
+  left: 200px;
+}
+
+.zupcanik-2 {
+  top: -20px;
+  right: 100px;
+}
+
+.levi-covek {
+  top: 80px;
+  left: 100px;
+}
+
+.desni-covek {
+  top: 80px;
+  right: 80px;
+}
+
+.srednji-covek {
+  top: 0px;
+  right: 240px;
+}
+
+.lupa-saradnik {
+  right: 80px;
+  top: 250px;
+}
+
+.stoji-covek {
+  top: 155px;
+  left: 300px;
+}
+
+.podloga {
+  bottom: 0;
+  left: 200px;
+}
+
+.finish {
+  bottom: 70px;
+  left: 220px;
+}
+
+.sijalica-cilj {
+  bottom: 150px;
+  left: 360px;
+}
+
+.traka {
+  bottom: 150px;
+  right: 200px;
+}
+
+.konfete {
+  left: 200px;
+  top: -20px;
+}
+
+.loading-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #3d4586;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.spancina {
+  background-color: orange;
+  display: block;
+  height: 4px;
+  animation-name: spana;
+  animation-duration: 1.75s;
+}
+
+@keyframes spana {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 690px;
+  }
+}

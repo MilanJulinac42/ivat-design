@@ -1,0 +1,80 @@
+.contact-container {
+  min-height: 100vh;
+  background-image: url("../assets/kontakt/pozadina-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-nav {
+  position: relative;
+}
+
+.content {
+  padding-top: 4em;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 48px;
+  font-family: "Montseratt", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #67686a;
+  width: 80%;
+}
+
+.info {
+  margin-top: 4em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.info h3 {
+  color: #8c8c8d;
+  font-size: 48px;
+  font-family: "Montseratt", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.info-container {
+  color: #8c8c8d;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Montseratt", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.placeholder-big {
+  color: #ffffff;
+  width: 450px;
+  height: 50px;
+  position: relative;
+  -webkit-box-shadow: 8px 20px 22px -5px rgba(0, 0, 0, 0.62);
+  box-shadow: 8px 20px 22px -5px rgba(0, 0, 0, 0.62);
+  border-radius: 25px;
+  background-color: #dca62e;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.vrata {
+  top: 150px;
+  right: 240px;
+}
+
+.covek {
+  right: 400px;
+  top: 430px;
+}

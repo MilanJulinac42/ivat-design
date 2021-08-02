@@ -116,6 +116,26 @@
   z-index: 10000;
 }
 
+.white-box {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 290px;
+  height: 200px;
+  animation-name: izbledi;
+  animation-duration: 3.2s;
+}
+
+@keyframes izbledi {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .hide {
   display: none;
 }
@@ -130,26 +150,6 @@
 
 .ucitava {
   position: relative;
-}
-
-.white-box {
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 290px;
-  height: 200px;
-  animation-name: izbledi;
-  animation-duration: 3s;
-}
-
-@keyframes izbledi {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
 }
 
 @keyframes spana {

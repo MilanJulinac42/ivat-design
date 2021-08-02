@@ -1,7 +1,15 @@
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.118/build/three.module.js";
 import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.118.1/examples/jsm/loaders/GLTFLoader.js";
 
-const container = document.querySelector(".tdlogo-graphic");
+const params = document.body.getElementsByTagName("script");
+let query = params[0].classList;
+const containerClass = query[0];
+const path = query[1];
+
+const container = document.querySelector(containerClass);
+
+console.log(path);
+console.log(containerClass);
 
 let camera, scene, renderer;
 
@@ -13,7 +21,7 @@ const windowHalf = new THREE.Vector2(
 );
 
 init();
-animate();
+// animate();
 
 function init() {
   const holder = new THREE.Group();
@@ -29,14 +37,14 @@ function init() {
   container.appendChild(renderer.domElement);
 
   camera = new THREE.PerspectiveCamera(
-    18,
+    14,
     window.innerWidth / window.innerHeight,
     0.1,
     300
   );
   // camera.position.set(1.8, 0.5, 11);
   camera.rotation.set(0, -0.068, 0);
-  camera.position.set(-0.8, 0.7, 11);
+  camera.position.set(-0.8, 0.6, 11);
 
   const pmremGenerator = new THREE.PMREMGenerator(renderer);
 
@@ -164,7 +172,7 @@ function init() {
   document.addEventListener("mousemove", onMouseMove, false);
 
   const loader = new GLTFLoader();
-  loader.load("./assets/logoi/graphic/logo.gltf", async function (glb) {
+  loader.load(path, async function (glb) {
     glb.scene.traverse((c) => {
       c.castShadow = true;
     });

@@ -27,6 +27,7 @@
       <div class="ucitava">
         <img src="./assets/logoi/misc/zlatni.png" alt="" />
         <span class="spancina"></span>
+        <div class="white-box"></div>
       </div>
     </div>
     <div class="navigation flex">
@@ -81,11 +82,11 @@
             <div class="saznaj-vise">
               <a href="./pages/grafickiDizajn.html">saznaj vise</a>
             </div>
-            <div class="container-graphic">
+            <div class="container-graphic container-slider">
               <div class="ocean-left">
                 <div class="wave-right"></div>
               </div>
-              <div class="tdlogo-graphic"></div>
+              <div class="tdlogo-graphic tdlogo"></div>
               <div class="ocean-right">
                 <div class="wave-left"></div>
               </div>
@@ -96,11 +97,11 @@
             <div class="saznaj-vise">
               <a href="./pages/webDesign.html">saznaj vise</a>
             </div>
-            <div class="container-web">
+            <div class="container-web container-slider">
               <div class="ocean-left">
                 <div class="wave-right"></div>
               </div>
-              <div class="tdlogo-web"></div>
+              <div class="tdlogo-web tdlogo"></div>
               <div class="ocean-right">
                 <div class="wave-left"></div>
               </div>
@@ -111,11 +112,11 @@
             <div class="saznaj-vise">
               <a href="./pages/videoAnimacija.html">saznaj vise</a>
             </div>
-            <div class="container-animation">
+            <div class="container-animation container-slider">
               <div class="ocean-left">
                 <div class="wave-right"></div>
               </div>
-              <div class="tdlogo-animation"></div>
+              <div class="tdlogo-animation tdlogo"></div>
               <div class="ocean-right">
                 <div class="wave-left"></div>
               </div>
@@ -443,12 +444,21 @@
         </div>
       </div>
     </div>
-    <script type="module" src="./js/loadindex.js"></script>
-    <script type="module" src="./js/loadindex1.js"></script>
-    <script type="module" src="./js/loadindex2.js"></script>
-    <!-- <script type="module" src="./js/loadEnv.js"></script>
-    <script type="module" src="./js/loadWeb.js"></script>
-    <script type="module" src="./js/loadAnimation.js"></script> -->
+    <script
+      type="module"
+      src="./js/loadEnv.js"
+      class=".tdlogo-graphic ./assets/logoi/graphic/logo.gltf"
+    ></script>
+    <script
+      type="module"
+      src="./js/loadEnv.js"
+      class=".tdlogo-animation ./assets/logoi/video/logo.gltf"
+    ></script>
+    <script
+      type="module"
+      src="./js/loadEnv.js"
+      class=".tdlogo-web ./assets/logoi/web/logo.gltf"
+    ></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => {

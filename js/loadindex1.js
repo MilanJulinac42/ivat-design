@@ -13,7 +13,7 @@ const windowHalf = new THREE.Vector2(
 );
 
 init();
-animate();
+// animate();
 
 function init() {
   const holder = new THREE.Group();
@@ -29,7 +29,7 @@ function init() {
   container.appendChild(renderer.domElement);
 
   camera = new THREE.PerspectiveCamera(
-    18,
+    14,
     window.innerWidth / window.innerHeight,
     0.1,
     300

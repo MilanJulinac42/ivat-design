@@ -1,5 +1,5 @@
 .velika-tabla {
-  top: 0;
+  top: 0%;
   right: 110px;
 }
 
@@ -109,10 +109,11 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #3d4586;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10000;
 }
 
 .hide {
@@ -127,11 +128,63 @@
   animation-duration: 1.75s;
 }
 
+.ucitava {
+  position: relative;
+}
+
+.white-box {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 290px;
+  height: 200px;
+  animation-name: izbledi;
+  animation-duration: 3s;
+}
+
+@keyframes izbledi {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 @keyframes spana {
   from {
     width: 0px;
   }
   to {
     width: 690px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .velika-tabla {
+    width: 40%;
+    top: 0%;
+    right: 18.61%;
+  }
+  .sijalica {
+    width: 8%;
+    top: 13.33%;
+    right: 77.83%;
+  }
+  .gornja-tabla {
+    width: 16%;
+    top: 15.55%;
+    right: 24.53%;
+  }
+  .donja-tabla {
+    width: 16%;
+    top: 42.22%;
+    right: 32.14%;
+  }
+  .covek {
+    width: 60%;
+    top: 23.68%;
+    right: 38.91%;
   }
 }

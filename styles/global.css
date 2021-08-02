@@ -130,36 +130,45 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-.container-graphic {
-  background-image: url("../assets/logoi/graphic/orange.png");
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  z-index: -11;
-}
-
 .splide__slide img {
   width: 100%;
   height: auto;
 }
 
+.container-graphic {
+  background-image: url("../assets/logoi/graphic/orange.png");
+}
+
 .container-web {
   background-image: url("../assets/logoi/web/blue.png");
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  z-index: -11;
 }
 
 .container-animation {
   background-image: url("../assets/logoi/video/purple.png");
+}
+
+.splide__slide {
+  height: 100vh;
+}
+
+.container-slider {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   z-index: -11;
 }
 
-.tdlogo-graphic {
+.tdlogo {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+/* .tdlogo-graphic {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -176,7 +185,7 @@ ul {
   width: 100%;
   overflow: hidden;
   position: fixed;
-}
+} */
 
 .nav-links {
   padding-top: 15px;
@@ -404,4 +413,16 @@ ul {
 
 .display {
   display: none;
+}
+
+@media only screen and (max-width: 1366px) {
+  .content {
+    width: 90%;
+  }
+  .text h2 {
+    font-size: 32px;
+  }
+  .text p {
+    font-size: 18px;
+  }
 }

@@ -36,7 +36,7 @@ function init() {
   );
   // camera.position.set(1.8, 0.5, 11);
   camera.rotation.set(0, -0.068, 0);
-  camera.position.set(-0.8, 0.7, 11);
+  camera.position.set(-0.8, 0.6, 11);
 
   const pmremGenerator = new THREE.PMREMGenerator(renderer);
 

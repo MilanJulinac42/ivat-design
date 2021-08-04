@@ -1,108 +1,130 @@
 .velika-tabla {
   top: 0%;
-  right: 110px;
+  left: 45.63%;
+  width: 39.59%;
 }
 
 .donja-tabla {
-  top: 190px;
-  right: 145px;
+  top: 42.22%;
+  left: 65.1%;
+  width: 15.43%;
 }
 
 .gornja-tabla {
-  top: 70px;
-  right: 145px;
+  top: 15.55%;
+  left: 65.1%;
+  width: 15.43%;
 }
 
 .sijalica {
-  top: 60px;
-  right: 460px;
+  top: 13.33%;
+  left: 28.18%;
+  width: 11%;
 }
 
 .covek {
-  right: 230px;
-  top: 140px;
+  top: 31.11%;
+  left: 10.73%;
+  width: 58.52%;
 }
-
+/*  */
 .mali-tocak {
   top: 270px;
-  right: 170px;
+  left: 63.75%;
+  width: 13.02%;
 }
 
 .veliki-tocak {
-  top: 50px;
-  right: 220px;
+  top: 11.11%;
+  left: 51%;
+  width: 19.46%;
 }
 
 .usluge-tabla {
-  top: 0;
-  left: 120px;
+  top: 0%;
+  left: 16.1%;
+  width: 51%;
 }
 
 .lupa {
-  top: 60px;
-  left: 130px;
+  top: 13.33%;
+  left: 17.44%;
+  width: 20.67%;
 }
-
+/*  */
 .zupcanik-3 {
-  top: -60px;
-  left: 200px;
+  top: -4.44%;
+  left: 16.1%;
+  width: 17.98%;
 }
 
 .zupcanik-2 {
-  top: -20px;
-  right: 100px;
+  top: -13.33%;
+  left: 69.79%;
+  width: 15.57%;
 }
 
 .levi-covek {
-  top: 80px;
-  left: 100px;
+  top: 17.77%;
+  left: 13.42%;
+  width: 23.48%;
 }
 
 .desni-covek {
-  top: 80px;
-  right: 80px;
+  top: 17.77%;
+  left: 65.77%;
+  width: 23.48%;
 }
 
 .srednji-covek {
-  top: 0px;
-  right: 240px;
+  top: 0%;
+  left: 34.89%;
+  width: 32.08%;
 }
 
 .lupa-saradnik {
-  right: 80px;
-  top: 250px;
+  top: 55.55%;
+  left: 65.77%;
+  width: 23.08%;
 }
 
 .stoji-covek {
-  top: 155px;
-  left: 300px;
+  top: 55.55%;
+  left: 40.26%;
+  width: 25.63%;
 }
-
+/*  */
 .podloga {
-  bottom: 0;
-  left: 200px;
+  top: 37.77%;
+  left: 26.84%;
+  width: 65.23%;
 }
 
 .finish {
-  bottom: 70px;
-  left: 220px;
+  top: -8.88%;
+  left: 29.53%;
+  width: 48.18%;
 }
 
 .sijalica-cilj {
-  bottom: 150px;
-  left: 360px;
+  top: 28.88%;
+  left: 48.32%;
+  width: 22.01%;
 }
 
 .traka {
-  bottom: 150px;
-  right: 200px;
+  top: 28.88%;
+  left: 38.92%;
+  width: 33.95%;
 }
 
 .konfete {
-  left: 200px;
-  top: -20px;
+  top: -4.44%;
+  left: 26.84%;
+  width: 65.1%;
 }
 
+/*  */
 .loading-container {
   position: absolute;
   width: 100%;

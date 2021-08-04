@@ -1,33 +1,40 @@
 .montaza-1 {
-  right: 0;
-  bottom: -80px;
+  top: -11.11%;
+  left: 20.13%;
+  width: 73.95%;
 }
 
 .montaza-2 {
-  right: 240px;
-  bottom: -85px;
+  top: 24.44%;
+  left: 6.71%;
+  width: 59.46%;
 }
-
+/*  */
 .pokretna-grafika {
-  bottom: -50px;
-  left: 50px;
+  top: 2.22%;
+  left: 6.71%;
+  width: 78.25%;
 }
-
+/*  */
 .render {
-  right: 100px;
-  top: -100px;
+  top: -22.22%;
+  left: 0%;
+  width: 79.73%;
 }
-
+/*  */
 .reklama-1 {
-  left: 200px;
+  left: 26.84%;
+  width: 24.83%;
 }
 
 .reklama-2 {
-  bottom: 270px;
-  left: 370px;
+  top: -8.88%;
+  left: 49.66%;
+  width: 24.96%;
 }
 
 .reklama-3 {
-  left: 410px;
-  bottom: 140px;
+  top: 22.22%;
+  left: 55.03%;
+  width: 20.13%;
 }

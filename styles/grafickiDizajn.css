@@ -1,79 +1,95 @@
 .paleta {
-  top: 140px;
-  right: 90px;
+  top: 31.11%;
+  right: 12.08%;
+  width: 18.52%;
 }
 
 .olovke-1 {
-  right: 160px;
-  top: 290px;
+  top: 64.44%;
+  right: 21.47%;
+  width: 10.87%;
 }
 
 .olovke-2 {
-  right: 230px;
-  top: 250px;
+  top: 55.55%;
+  right: 30.87%;
+  width: 7.65%;
 }
 
 .kafa {
-  left: 30px;
-  top: 160px;
+  top: 35.55%;
+  left: 4.02%;
+  width: 11.94%;
 }
 
 .mobilni-paleta {
-  bottom: 70px;
-  left: 30px;
+  top: 57.77%;
+  left: 4.02%;
+  width: 8.18%;
 }
 
 .lap-top {
-  top: 50px;
-  left: 110px;
+  top: 11.11%;
+  left: 14.76%;
+  width: 49.39%;
 }
 
 .dizajn-sijalica {
-  left: 300px;
-  bottom: -30px;
+  top: 77.77%;
+  left: 40.26%;
+  width: 10.87%;
 }
-
+/*  */
 .postolje {
-  top: 100px;
-  left: 120px;
+  top: 22.22%;
+  width: 77.18%;
+  left: 16.1%;
 }
 
 .sto-stampa {
-  right: 70px;
-  top: -30px;
+  top: -6.66%;
+  width: 34.76%;
+  left: 56.37%;
 }
 
 .sto-lap-top {
-  bottom: 50px;
-  left: 180px;
+  top: 26.66%;
+  width: 35.16%;
+  left: 24.16%;
 }
-
+/*  */
 .mobilni-prazan {
-  top: 200px;
-  left: 80px;
+  top: 44.44%;
+  left: 10.73%;
+  width: 75.7%;
 }
 
 .social-3 {
   top: 0;
-  left: 180px;
+  left: 18.73%;
+  width: 45.9%;
 }
 
 .social-2 {
-  top: 100px;
-  left: 230px;
+  top: 22.22%;
+  left: 30.87%;
+  width: 35.16%;
 }
 
 .social-1 {
-  top: 220px;
-  left: 200px;
+  top: 48.88%;
+  left: 26.84%;
+  width: 30.73%;
 }
-
+/*  */
 .sto-torta {
-  top: 140px;
-  left: 120px;
+  top: 31.11%;
+  left: 16.1%;
+  width: 61.2%;
 }
 
 .covek-slika {
-  top: -30px;
-  left: 400px;
+  top: -6.66%;
+  left: 53.69%;
+  width: 27.65%;
 }

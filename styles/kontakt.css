@@ -24,6 +24,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 2em;
+  margin-right: 25em;
 }
 
 .heading {
@@ -81,13 +82,15 @@
 }
 
 .vrata {
-  top: 210px;
-  right: 240px;
+  top: 25.19%;
+  left: 75.66%;
+  width: 16.71%;
 }
 
 .covek {
-  right: 400px;
-  top: 490px;
+  top: 52.84%;
+  left: 69.36%;
+  width: 14.97%;
 }
 
 .form {
@@ -116,6 +119,8 @@
 
 .img-container {
   flex: 1 1 0px;
+  position: relative;
+  height: 100%;
 }
 
 textarea {
@@ -138,4 +143,66 @@ textarea {
   font-weight: 900;
   font-size: 24px;
   text-align: center;
+}
+
+@media only screen and (max-width: 1366px) {
+  .heading {
+    margin-top: 30px;
+    font-size: 32px;
+  }
+  .info-form {
+    margin-top: 1em;
+    gap: 1em;
+    margin-right: 390px;
+    margin-bottom: 2em;
+  }
+  .info h3 {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  .info-container {
+    font-size: 24px;
+  }
+  .placeholder-big {
+    width: 350px;
+    padding-top: 15px;
+    height: 35px;
+  }
+  .border {
+    width: 80%;
+  }
+  .contact-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .heading {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  .info-form {
+    margin-top: 1em;
+    gap: 3em;
+    margin-right: 350px;
+    margin-bottom: 2em;
+  }
+  .info h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .info-container {
+    font-size: 20px;
+  }
+  .placeholder-big {
+    width: 300px;
+    padding-top: 15px;
+    height: 35px;
+  }
+  .border {
+    width: 80%;
+  }
+  .placeholder-small {
+    font-size: 16px;
+  }
 }

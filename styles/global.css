@@ -289,7 +289,7 @@ ul {
   min-width: 500px;
 }
 
-.logo-social img {
+.big-logo {
   width: 500px;
 }
 
@@ -326,10 +326,11 @@ ul {
   margin-top: 10px;
 }
 
-.section-details ul li a {
+.section-details ul li p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
+  color: #797a7b;
 }
 
 .social-footer {
@@ -425,4 +426,99 @@ ul {
   .text p {
     font-size: 18px;
   }
+  .animation-container {
+    height: 370px;
+  }
+  .section {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+  .navigation {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .nav-links {
+    gap: 20px;
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .social-lang {
+    margin-top: 5px;
+    gap: 25px;
+  }
+  .lang a {
+    font-size: 20px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    gap: 2em;
+  }
+
+  .logo-social {
+    min-width: 400px;
+  }
+  .logo-social p {
+    font-size: 18px;
+  }
+  .details {
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+  .section-details {
+    white-space: nowrap;
+  }
+  .section-details h4 {
+    font-size: 16px;
+  }
+  .section-details ul li p {
+    font-size: 14px;
+  }
+  .big-logo {
+    width: 400px;
+  }
+  .saznaj-vise {
+    bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .animation-container {
+    height: 300px;
+  }
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 2em;
+  }
+
+  .logo-social {
+    min-width: 350px;
+  }
+  .logo-social p {
+    font-size: 16px;
+  }
+  .details {
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+  .section-details {
+    white-space: nowrap;
+  }
+  .section-details h4 {
+    font-size: 14px;
+  }
+  .section-details ul li p {
+    font-size: 12px;
+  }
+  .big-logo {
+    width: 350px;
+  }
+}
+
+.web-image {
+  width: 67.78%;
+  height: 121.11%;
 }

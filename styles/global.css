@@ -50,7 +50,7 @@ ul {
 }
 
 .content-container {
-  background-image: url("../assets/pocetna/pozadina.jpg");
+  background-image: url("../assets/pocetna/pozadina1.jpg");
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,16 +60,16 @@ ul {
 }
 
 .web-dizajn {
-  background-image: url("../assets/web-dizajn/pozadina.jpg");
+  background-image: url("../assets/web-dizajn/pozadina1.jpg");
   overflow-x: hidden;
 }
 
 .graficki-dizajn {
-  background-image: url("../assets/graficki-dizajn/pozadina.jpg");
+  background-image: url("../assets/graficki-dizajn/pozadina1.jpg");
 }
 
 .video-animacija {
-  background-image: url("../assets/video-animacija/pozadina.jpg");
+  background-image: url("../assets/video-animacija/pozadina1.jpg");
 }
 
 .content {

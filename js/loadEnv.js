@@ -176,7 +176,7 @@ function init() {
       c.castShadow = true;
     });
 
-    // scene.add(glb.scene);
+    scene.add(glb.scene);
     holder.add(glb.scene);
 
     scene.add(holder);

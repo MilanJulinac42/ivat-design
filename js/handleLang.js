@@ -3,8 +3,12 @@ import lang from "../language/lang.js";
 const data = lang.data;
 let defaulL = "srb";
 
-const typeL = window.location.href.split("?")[1];
-defaulL = typeL.split("=")[1];
+try {
+  const typeL = window.location.href.split("?")[1];
+  defaulL = typeL.split("=")[1];
+} catch (error) {
+  console.log(error);
+}
 
 const langWrap = document.querySelector(".lang");
 const language = document.querySelectorAll(".language");

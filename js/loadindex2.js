@@ -184,13 +184,13 @@ function render() {
 function animate() {
   holder.rotation.y = THREE.MathUtils.lerp(
     holder.rotation.y,
-    (mouse.x * Math.PI) / 20,
+    -(mouse.x * Math.PI) / 15,
     0.01
   );
 
   holder.rotation.x = THREE.MathUtils.lerp(
     holder.rotation.x,
-    (mouse.x * Math.PI) / 20,
+    (Math.abs(mouse.x) * Math.PI) / 20,
     0.01
   );
 

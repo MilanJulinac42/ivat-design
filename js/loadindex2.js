@@ -3,20 +3,19 @@ import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.118.1/examples/
 
 const container = document.querySelector(".tdlogo-web");
 
-let camera, scene, renderer;
+let camera, scene, renderer, holder;
 
 const mouse = new THREE.Vector2();
-const target = new THREE.Vector2();
 const windowHalf = new THREE.Vector2(
   window.innerWidth / 2,
   window.innerHeight / 2
 );
 
 init();
-// animate();
+animate();
 
 function init() {
-  const holder = new THREE.Group();
+  holder = new THREE.Group();
   holder.position.set(-2, 0, 0);
 
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -183,26 +182,23 @@ function render() {
 }
 
 function animate() {
-  target.x = (1 - mouse.x) * 0.002;
-  target.y = (1 - mouse.y) * 0.002;
+  holder.rotation.y = THREE.MathUtils.lerp(
+    holder.rotation.y,
+    (mouse.x * Math.PI) / 20,
+    0.01
+  );
 
-  if (target.x > 1) {
-    camera.rotation.y += 0.00008 * (target.x - camera.rotation.y);
-  } else {
-    camera.rotation.y += 0.00008 * (target.x - camera.rotation.y);
-  }
-
-  if (target.y > 1) {
-    camera.rotation.x += 0.00008 * (target.y - camera.rotation.x);
-  } else {
-    camera.rotation.x -= 0.00008 * (target.y - camera.rotation.x);
-  }
+  holder.rotation.x = THREE.MathUtils.lerp(
+    holder.rotation.x,
+    (mouse.x * Math.PI) / 20,
+    0.01
+  );
 
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
 }
 
 function onMouseMove(event) {
-  mouse.x = event.clientX - windowHalf.x;
-  mouse.y = event.clientY - windowHalf.x;
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(event.clientY / window.innerHeight) * 2 - 1;
 }

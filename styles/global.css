@@ -1,17 +1,5 @@
 /* font-family: 'Montserrat', sans-serif; */
 
-@font-face {
-  font-family: "Myriad Pro";
-  src: url("MyriadPro-Regular.eot");
-  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
-    url("MyriadPro-Regular.woff2") format("woff2"),
-    url("MyriadPro-Regular.woff") format("woff"),
-    url("MyriadPro-Regular.ttf") format("truetype"),
-    url("MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 *,
 html,
 body {
@@ -40,9 +28,7 @@ body,
 a {
   color: #9b9c9f;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  font-weight: 900;
+  font-family: "Oswald", sans-serif;
 }
 
 ul {
@@ -109,7 +95,7 @@ ul {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-family: "Myriad", sans-serif;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 3px;
 }
 
@@ -117,7 +103,7 @@ ul {
   font-size: 24px;
   margin-top: 25px;
   color: #474849;
-  font-family: "Myriad Pro";
+  font-family: "Archivo", sans-serif;
 }
 
 .text:nth-child(odd) {
@@ -168,25 +154,6 @@ ul {
   position: fixed;
 }
 
-/* .tdlogo-graphic {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  position: fixed;
-}
-.tdlogo-web {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  position: fixed;
-}
-.tdlogo-animation {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  position: fixed;
-} */
-
 .nav-links {
   padding-top: 15px;
   gap: 30px;
@@ -208,6 +175,7 @@ ul {
   justify-content: space-between;
   z-index: 10;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 .sticky {
@@ -251,7 +219,6 @@ ul {
   font-family: "Montserrat", sans-serif;
   /* color: #9b9c9f; */
   color: #ffffff;
-  font-weight: 900;
   font-size: 28px;
   flex-direction: column;
   position: relative;
@@ -270,6 +237,7 @@ ul {
   position: relative;
   color: #ffffff;
   transition: 0.6s;
+  font-family: "Oswald", sans-serif;
 }
 
 .lang {
@@ -282,6 +250,7 @@ ul {
   background-color: #ececed;
   gap: 4em;
   align-items: center;
+  font-family: "Oswald", sans-serif;
 }
 
 .logo-social {
@@ -296,9 +265,7 @@ ul {
 .logo-social p {
   font-size: 24px;
   color: #797a7b;
-  font-style: italic;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .details {
@@ -309,9 +276,7 @@ ul {
 
 .section-details h4 {
   color: #797a7b;
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  font-weight: 700;
+  font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
 
@@ -327,9 +292,8 @@ ul {
 }
 
 .section-details ul li p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 16px;
-  font-weight: 700;
   color: #797a7b;
 }
 
@@ -410,6 +374,7 @@ ul {
 .saznaj-vise a {
   color: #fff;
   font-size: 28px;
+  font-family: "Oswald", sans-serif;
 }
 
 .display {

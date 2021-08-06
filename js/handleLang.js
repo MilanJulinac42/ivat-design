@@ -13,6 +13,7 @@ try {
 const langWrap = document.querySelector(".lang");
 const language = document.querySelectorAll(".language");
 const links = document.querySelectorAll(".a-link");
+const slinks = document.querySelectorAll(".saznaj-link");
 
 if (defaulL == "srb") {
   langWrap.querySelector(".active-lang").classList.remove("active-lang");
@@ -45,8 +46,19 @@ function setLan(attr) {
   }
 }
 
+function setLanS(attr) {
+  let counter = 0;
+  slinks.forEach((el) => {
+    el.setAttribute(
+      "href",
+      setUrl(el.getAttribute("href")) + `?language=${attr}`
+    );
+  });
+}
+
 function setUrl(url) {
   return url.split("?")[0];
 }
 
 setLan(defaulL);
+setLanS(defaulL);

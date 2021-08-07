@@ -76,6 +76,7 @@ ul {
   padding-top: 8em;
   padding-bottom: 8em;
   overflow-y: hidden;
+  z-index: 100000;
 }
 
 .animation-container {
@@ -156,6 +157,7 @@ ul {
   width: 100%;
   overflow: hidden;
   position: fixed;
+  z-index: -1;
 }
 
 .nav-links {

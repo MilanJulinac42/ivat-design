@@ -126,15 +126,15 @@ ul {
 }
 
 .container-graphic {
-  background-image: url("../assets/logoi/graphic/orange.png");
+  background-image: url("../assets/logoi/graphic/orange.jpg");
 }
 
 .container-web {
-  background-image: url("../assets/logoi/web/blue.png");
+  background-image: url("../assets/logoi/web/blue.jpg");
 }
 
 .container-animation {
-  background-image: url("../assets/logoi/video/purple.png");
+  background-image: url("../assets/logoi/video/purple.jpg");
 }
 
 .splide__slide {

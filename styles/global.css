@@ -1,5 +1,9 @@
 /* font-family: 'Montserrat', sans-serif; */
 
+:root {
+  --check-gray: #fff;
+}
+
 *,
 html,
 body {
@@ -395,14 +399,10 @@ ul {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: white;
+  background-color: var(--check-gray);
   border-radius: 25px;
   top: 30.3%;
   right: -20px;
-}
-
-.gray {
-  background-color: #474849;
 }
 
 @media only screen and (max-width: 1366px) {

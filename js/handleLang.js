@@ -3,6 +3,10 @@ import lang from "../language/lang.js";
 const data = lang.data;
 let defaulL = "srb";
 
+function changeColor(element, color) {
+  element.style.setProperty("--check-gray", color);
+}
+
 try {
   const typeL = window.location.href.split("?")[1];
   defaulL = typeL.split("=")[1];
@@ -30,6 +34,11 @@ language.forEach((el) => {
 
     const attr = el.getAttribute("language");
     setLan(attr);
+    if (window.scrollY > window.innerHeight - 200) {
+      changeColor(el, "#474849");
+    } else {
+      changeColor(el, "#fff");
+    }
   });
 });
 
@@ -47,7 +56,6 @@ function setLan(attr) {
 }
 
 function setLanS(attr) {
-  let counter = 0;
   slinks.forEach((el) => {
     el.setAttribute(
       "href",

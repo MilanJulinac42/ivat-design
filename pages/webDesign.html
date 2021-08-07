@@ -14,7 +14,6 @@
     />
     <link rel="stylesheet" href="../styles/pocetna.css" />
     <link rel="stylesheet" href="../styles/global.css" />
-    <script src="../js/scroll.js"></script>
     <script type="module" src="../js/handleLang.js"></script>
     <title>Document</title>
   </head>
@@ -59,8 +58,20 @@
           /></a>
         </div>
         <div class="lang flex">
-          <a href="#" class="col language active-lang" language="srb">SR</a>
-          <a href="#" class="col language" language="eng">EN</a>
+          <a
+            href="#"
+            onclick="return false;"
+            class="col language active-lang"
+            language="srb"
+            >SR</a
+          >
+          <a
+            href="#"
+            onclick="return false;"
+            class="col language"
+            language="eng"
+            >EN</a
+          >
         </div>
       </div>
     </div>
@@ -457,6 +468,7 @@
       src="../js/loadEnv.js"
       class=".tdlogo-web ../assets/logoi/web/logo.gltf"
     ></script>
+    <script src="../js/scroll.js"></script>
     <script>
       AOS.init({ once: true });
     </script>

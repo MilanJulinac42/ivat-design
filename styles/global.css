@@ -45,8 +45,8 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 80px;
-  opacity: 0.93;
+  opacity: 1;
+  position: relative;
 }
 
 .web-dizajn {
@@ -76,7 +76,7 @@ ul {
   padding-top: 8em;
   padding-bottom: 8em;
   overflow-y: hidden;
-  z-index: 100000;
+  z-index: 0;
 }
 
 .animation-container {
@@ -88,6 +88,7 @@ ul {
 
 .animation-image {
   position: absolute;
+  z-index: 500;
 }
 
 .text {
@@ -157,7 +158,7 @@ ul {
   width: 100%;
   overflow: hidden;
   position: fixed;
-  z-index: -1;
+  z-index: 1;
 }
 
 .nav-links {

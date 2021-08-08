@@ -307,3 +307,27 @@ button:focus {
   transform: scaleX(0);
   transform-origin: left;
 }
+
+@media only screen and (max-width: 1366px) {
+  :root {
+    --card-width: 380px;
+    --card-height: 380px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --card-width: 330px;
+    --card-height: 340px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    --card-width: 300px;
+    --card-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}

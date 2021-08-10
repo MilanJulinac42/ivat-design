@@ -4,10 +4,12 @@ function changeColor(element, color) {
 
 window.addEventListener("scroll", () => {
   const navigation = document.querySelector(".navigation");
+  const tdlogo = document.querySelector(".tdlogo");
   navigation.classList.toggle(
     "sticky",
     window.scrollY > window.innerHeight - 200
   );
+  tdlogo.classList.toggle("opacity", window.scrollY > window.innerHeight - 400);
 });
 
 window.addEventListener("scroll", () => {

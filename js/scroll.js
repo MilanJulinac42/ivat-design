@@ -1,3 +1,13 @@
+document.currentScript =
+  document.currentScript ||
+  (function () {
+    var scripts = document.getElementsByTagName("script");
+    return scripts[scripts.length - 1];
+  })();
+
+const path = document.currentScript.getAttribute("path"); //1
+console.log(path);
+
 function changeColor(element, color) {
   element.style.setProperty("--check-gray", color);
 }
@@ -15,16 +25,24 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   const llinks = document.querySelector(".active-lang");
   if (window.scrollY > window.innerHeight - 200) {
-    document.getElementById("ivat").src = "../assets/logoi/misc/sivi-01.png";
-    document.getElementById("beli-insta").src =
-      "../assets/logoi/misc/insta sivi.png";
-    document.getElementById("beli-fb").src = "../assets/logoi/misc/fb sivi.png";
+    document.getElementById(
+      "ivat"
+    ).src = `${path}assets/logoi/misc/sivi-01.png`;
+    document.getElementById(
+      "beli-insta"
+    ).src = `${path}assets/logoi/misc/insta sivi.png`;
+    document.getElementById(
+      "beli-fb"
+    ).src = `${path}assets/logoi/misc/fb sivi.png`;
     changeColor(llinks, "#474849");
   } else {
-    document.getElementById("ivat").src = "../assets/logoi/misc/beli.png";
-    document.getElementById("beli-insta").src =
-      "../assets/logoi/misc/insta beli.png";
-    document.getElementById("beli-fb").src = "../assets/logoi/misc/fb beli.png";
+    document.getElementById("ivat").src = `${path}assets/logoi/misc/beli.png`;
+    document.getElementById(
+      "beli-insta"
+    ).src = `${path}assets/logoi/misc/insta beli.png`;
+    document.getElementById(
+      "beli-fb"
+    ).src = `${path}assets/logoi/misc/fb beli.png`;
     changeColor(llinks, "#fff");
   }
 });

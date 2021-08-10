@@ -6,8 +6,6 @@ let query = params[0].classList;
 const containerClass = query[0];
 const path = query[1];
 
-console.log(path);
-
 const container = document.querySelector(containerClass);
 
 let camera, scene, renderer, holder;

@@ -33,7 +33,8 @@ language.forEach((el) => {
     el.classList.add("active-lang");
 
     const attr = el.getAttribute("language");
-    setLan(attr);
+    setNavLan(attr);
+    setFooterLan(attr);
     if (window.scrollY > window.innerHeight - 200) {
       changeColor(el, "#474849");
     } else {
@@ -42,7 +43,7 @@ language.forEach((el) => {
   });
 });
 
-function setLan(attr) {
+function setNavLan(attr) {
   let counter = 0;
   for (let key in data[attr].navigation) {
     let value = data[attr].navigation[key];
@@ -53,6 +54,21 @@ function setLan(attr) {
     );
     counter++;
   }
+}
+
+function setFooterLan(attr) {
+  const fe = document.querySelectorAll(".fe");
+  const fm = document.querySelector(".fm");
+
+  let counter = 0;
+  for (let key in data[attr].footer.list) {
+    for (let key2 in data[attr].footer.list[key]) {
+      const value = data[attr].footer.list[key][key2];
+      fe[counter].innerHTML = value;
+      counter++;
+    }
+  }
+  fm.innerHTML = data[attr].footer.followMe;
 }
 
 function setLanS(attr) {
@@ -68,5 +84,6 @@ function setUrl(url) {
   return url.split("?")[0];
 }
 
-setLan(defaulL);
+setNavLan(defaulL);
+setFooterLan(defaulL);
 setLanS(defaulL);

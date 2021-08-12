@@ -6,7 +6,6 @@ document.currentScript =
   })();
 
 const path = document.currentScript.getAttribute("path"); //1
-console.log(path);
 
 function changeColor(element, color) {
   element.style.setProperty("--check-gray", color);

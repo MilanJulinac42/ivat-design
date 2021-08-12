@@ -19,7 +19,19 @@ window.addEventListener("scroll", () => {
     "sticky",
     window.scrollY > window.innerHeight - 200
   );
-  tdlogo.classList.toggle("opacity", window.scrollY > window.innerHeight - 400);
+  tdlogo.classList.toggle("opacity", window.scrollY > window.innerHeight - 500);
+  tdlogo.classList.toggle(
+    "opacity2",
+    window.scrollY > window.innerHeight - 450
+  );
+  tdlogo.classList.toggle(
+    "opacity3",
+    window.scrollY > window.innerHeight - 350
+  );
+  tdlogo.classList.toggle(
+    "opacity4",
+    window.scrollY > window.innerHeight - 250
+  );
 });
 
 window.addEventListener("scroll", () => {

@@ -170,6 +170,15 @@ ul {
 }
 
 .opacity {
+  opacity: 0.9;
+}
+.opacity2 {
+  opacity: 0.7;
+}
+.opacity3 {
+  opacity: 0.5;
+}
+.opacity4 {
   opacity: 0.1;
 }
 
@@ -613,4 +622,8 @@ ul {
   .navigation {
     justify-content: space-around;
   }
+}
+
+.cardList {
+  z-index: 20;
 }

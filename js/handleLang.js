@@ -4,8 +4,10 @@ let path;
 
 try {
   path = window.location.pathname.split("/")[3].split(".")[0];
+  console.log(path);
 } catch (error) {
   path = window.location.pathname.split("/")[2].split(".")[0];
+  console.log(path);
 }
 
 const data = lang.data;

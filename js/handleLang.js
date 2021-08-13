@@ -1,5 +1,13 @@
 import lang from "../language/lang.js";
 
+let path;
+
+try {
+  path = window.location.pathname.split("/")[2].split(".")[0];
+} catch (error) {
+  path = window.location.pathname.split("/")[1].split(".")[0];
+}
+
 const data = lang.data;
 let defaulL = "srb";
 
@@ -33,8 +41,10 @@ language.forEach((el) => {
     el.classList.add("active-lang");
 
     const attr = el.getAttribute("language");
+    if (path != "kontakt") setPageLan(attr, path);
     setNavLan(attr);
     setFooterLan(attr);
+
     if (window.scrollY > window.innerHeight - 200) {
       changeColor(el, "#474849");
     } else {
@@ -84,6 +94,27 @@ function setUrl(url) {
   return url.split("?")[0];
 }
 
+function setPageLan(attr, page) {
+  const sh = document.querySelectorAll(".sh");
+  const sc = document.querySelectorAll(".sc");
+
+  let counterSH = 0;
+  let counterSC = 0;
+
+  for (let key in data[attr].pages[page].headings) {
+    const value = data[attr].pages[page].headings[key];
+    sh[counterSH].innerHTML = value;
+    counterSH++;
+  }
+
+  for (let key in data[attr].pages[page].content) {
+    const value = data[attr].pages[page].content[key];
+    sc[counterSC].innerHTML = value;
+    counterSC++;
+  }
+}
+
+if (path != "kontakt") setPageLan(defaulL, path);
 setNavLan(defaulL);
 setFooterLan(defaulL);
 setLanS(defaulL);

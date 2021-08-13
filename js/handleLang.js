@@ -3,9 +3,9 @@ import lang from "../language/lang.js";
 let path;
 
 try {
-  path = window.location.pathname.split("/")[2].split(".")[0];
+  path = window.location.pathname.split("/")[3].split(".")[0];
 } catch (error) {
-  path = window.location.pathname.split("/")[1].split(".")[0];
+  path = window.location.pathname.split("/")[2].split(".")[0];
 }
 
 const data = lang.data;

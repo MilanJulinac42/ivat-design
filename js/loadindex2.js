@@ -141,7 +141,7 @@ function init() {
   material1.opacity = 0.2;
 
   const plane1 = new THREE.Mesh(geometry1, material1);
-  plane1.position.set(1.5, 1, -1);
+  plane1.position.set(1.5, 1, -2);
   plane1.receiveShadow = true;
 
   // scene.add(plane1);

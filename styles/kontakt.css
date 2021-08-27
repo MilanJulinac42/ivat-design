@@ -9,7 +9,7 @@
 }
 
 .contact-nav {
-  position: relative;
+  position: fixed;
 }
 
 .contact-content {

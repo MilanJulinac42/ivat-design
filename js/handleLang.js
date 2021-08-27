@@ -52,6 +52,7 @@ language.forEach((el) => {
     } else {
       changeColor(el, "#fff");
     }
+    if (path == "kontakt") changeColor(el, "#474849");
   });
 });
 

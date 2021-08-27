@@ -245,9 +245,8 @@ ul {
 
 .lang a {
   font-family: "Montserrat", sans-serif;
-  /* color: #9b9c9f; */
   color: #ffffff;
-  font-size: 28px;
+  font-size: 16px;
   flex-direction: column;
   position: relative;
 }

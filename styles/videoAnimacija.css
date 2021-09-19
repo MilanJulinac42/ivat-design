@@ -38,3 +38,21 @@
   left: 55.03%;
   width: 20.13%;
 }
+
+.modal-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000000000000;
+  display: none;
+  transform: translateY(-300px);
+}
+
+iframe {
+  width: 80%;
+  height: 70%;
+}

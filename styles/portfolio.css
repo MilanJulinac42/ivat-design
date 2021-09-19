@@ -331,3 +331,9 @@ button:focus {
 
 @media only screen and (max-width: 767px) {
 }
+
+.friki,
+.krug,
+.pcmax {
+  cursor: pointer;
+}

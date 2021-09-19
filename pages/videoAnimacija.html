@@ -224,6 +224,16 @@
         </div>
       </div>
       <div class="portfolio-container">
+        <div class="modal-container" id="myModal">
+          <iframe
+            src=""
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            id="modalIframe"
+          ></iframe>
+        </div>
         <div class="app">
           <div class="cardList">
             <button class="cardList__btn btn btn--left">
@@ -234,22 +244,21 @@
               </div>
             </button>
             <div class="cards__wrapper">
-              <div class="card current--card">
+              <a class="card current--card friki">
                 <div class="card__image">
-                  <img src="placeholder.webp" alt="" />
+                  <img src="../assets/videoPortfolio/FRIKI 021.jpg" alt="" />
                 </div>
-              </div>
-
-              <div class="card next--card">
+              </a>
+              <a class="card next--card krug">
                 <div class="card__image">
-                  <img src="placeholder.webp" alt="" />
+                  <img src="../assets/videoPortfolio/Krug 021.jpg" alt="" />
                 </div>
-              </div>
-              <div class="card previous--card">
+              </a>
+              <a class="card previous--card pcmax">
                 <div class="card__image">
-                  <img src="placeholder.webp" alt="" />
+                  <img src="../assets/videoPortfolio/pcmax2017.jpg" alt="" />
                 </div>
-              </div>
+              </a>
             </div>
             <button class="cardList__btn btn btn--right">
               <div class="icon">
@@ -391,6 +400,7 @@
     ></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="../js/handlePortfolioPlay.js"></script>
     <script src="../js/portfolio.js"></script>
     <script src="../js/scroll.js " path="../"></script>
     <script>

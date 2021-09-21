@@ -1,4 +1,16 @@
-/* font-family: 'Montserrat', sans-serif; */
+@font-face {
+  font-family: "avenir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "avenir bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/AvenirNextLTPro-Bold.otf");
+}
 
 :root {
   --check-gray: #fff;
@@ -37,7 +49,6 @@ body,
 a {
   color: #9b9c9f;
   text-decoration: none;
-  font-family: "Oswald", sans-serif;
 }
 
 ul {
@@ -108,7 +119,7 @@ ul {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir bold;
   letter-spacing: 3px;
 }
 
@@ -116,7 +127,7 @@ ul {
   font-size: 24px;
   margin-top: 25px;
   color: #474849;
-  font-family: "Archivo", sans-serif;
+  font-family: avenir;
 }
 
 .text:nth-child(odd) {
@@ -203,7 +214,7 @@ ul {
   justify-content: space-between;
   z-index: 1500000;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir bold;
 }
 
 .sticky {
@@ -244,7 +255,7 @@ ul {
 }
 
 .lang a {
-  font-family: "Montserrat", sans-serif;
+  font-family: avenir bold;
   color: #ffffff;
   font-size: 16px;
   flex-direction: column;
@@ -264,7 +275,7 @@ ul {
   position: relative;
   color: #ffffff;
   transition: 0.6s;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir bold;
 }
 
 .lang {
@@ -277,7 +288,7 @@ ul {
   background-color: #ececed;
   gap: 4em;
   align-items: center;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir bold;
 }
 
 .logo-social {
@@ -292,7 +303,7 @@ ul {
 .logo-social p {
   font-size: 24px;
   color: #797a7b;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir;
 }
 
 .details {
@@ -303,7 +314,7 @@ ul {
 
 .section-details h4 {
   color: #797a7b;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir bold;
   font-size: 20px;
 }
 
@@ -319,7 +330,7 @@ ul {
 }
 
 .section-details ul li p {
-  font-family: "Archivo", sans-serif;
+  font-family: avenir;
   font-size: 16px;
   color: #797a7b;
 }
@@ -401,7 +412,7 @@ ul {
 .saznaj-vise a {
   color: #fff;
   font-size: 28px;
-  font-family: "Oswald", sans-serif;
+  font-family: avenir bold;
 }
 
 .display {

@@ -29,7 +29,7 @@ function handleBtnClick() {
 
 friki.addEventListener("click", () => {
   handleBtnClick();
-  frame.src = "https://www.youtube.com/embed/q76bMs-NwRk&t";
+  frame.src = "https://www.youtube.com/embed/gEOa793e_dU";
 });
 
 krug.addEventListener("click", () => {
@@ -39,7 +39,7 @@ krug.addEventListener("click", () => {
 
 pcmax.addEventListener("click", () => {
   handleBtnClick();
-  frame.src = "https://www.youtube.com/embed/nDq6TstdEi8&t";
+  frame.src = "https://www.youtube.com/embed/XeUP83wRhjQ";
 });
 
 window.onclick = function (event) {

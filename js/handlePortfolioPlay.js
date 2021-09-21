@@ -29,17 +29,17 @@ function handleBtnClick() {
 
 friki.addEventListener("click", () => {
   handleBtnClick();
-  frame.src = "https://www.youtube.com/embed/TRCDsB9i3bI";
+  frame.src = "https://www.youtube.com/embed/q76bMs-NwRk&t";
 });
 
 krug.addEventListener("click", () => {
   handleBtnClick();
-  frame.src = "https://www.youtube.com/embed/TRCDsB9i3bI";
+  frame.src = "https://www.youtube.com/embed/kygoJiJAWG4";
 });
 
 pcmax.addEventListener("click", () => {
   handleBtnClick();
-  frame.src = "https://www.youtube.com/embed/TRCDsB9i3bI";
+  frame.src = "https://www.youtube.com/embed/nDq6TstdEi8&t";
 });
 
 window.onclick = function (event) {
